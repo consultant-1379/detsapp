@@ -1,0 +1,102 @@
+.login-main-div {
+  position: relative;
+  overflow: auto;
+  background-color: black;
+  height: 100vh;
+}
+/* @media (min-height:800px) {
+  .login-main-div {
+    height:auto;
+  }
+} */
+.login-form-title {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  color: white;
+  font-weight: bold;
+  margin-top:5%;
+  font-size: 1vw;
+}
+.login-form-logo-holder {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  margin-top:1%;
+}
+.login-form-logo-div {
+  height: 8vw;
+  width: 8vw;
+}
+.login-form-logo-div img {
+  height: 100%;
+  width: 100%;
+}
+.login-form-div {
+  width: 100%;
+  color:whitesmoke;
+  margin-top: 5%;
+}
+.login-form-error-msg{
+    color: rgb(216, 55, 55);
+    font-weight: bold;
+    display: grid;
+    place-items: center;
+    font-size: 1vw;
+}
+.login-form-details{
+    display: grid;
+    place-items: center;
+    font-size: 1vw;
+}
+.login-form-details input{
+    border:none;
+    outline:none;
+    background-color: transparent;
+    border-bottom: .1vw solid white;
+    color:whitesmoke;
+    font-size: 1vw;
+    width: 20%;
+    padding:.5vw;
+}
+.password{
+    margin-top:5%;
+}
+.regPass{
+    margin-top: 3%;
+}
+.regMail{
+    margin-top: 3%;
+}
+.login-form-submit-div{
+    width: 100%;
+    display: grid;
+    place-items: center;
+    margin-top:5%;
+    gap:.5vw;
+}
+.login-form-submit-div input{
+    border:none;
+    outline:none;
+    background-color: white;
+    color:black;
+    font-size:1vw;
+    font-weight: bold;
+    letter-spacing: .2vw;
+    padding:.5vw;
+    width: 20%;
+    border:.1vw solid white;
+    cursor: pointer;
+    border-radius: .5vw;
+    transition:.1s ease-in-out;
+}
+.login-form-submit-div input:active{
+    background-color: rgb(216, 210, 210);
+}
+#register{
+    background-color: transparent;
+    color:white;
+}
+#register:active{
+    color:rgb(62, 170, 62);
+}

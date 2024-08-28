@@ -1,0 +1,47 @@
+.booking-main-div {
+  padding: 0.5vw;
+}
+.booking-list-div {
+  display: grid;
+  gap: 0.5vw;
+}
+.booking-list-title {
+  display: flex;
+}
+.title-cloudName {
+  width: 15%;
+}
+.title-spoc {
+  width: 22.5%;
+}
+.title-env {
+  width: 15%;
+}
+.title-prepDate{
+    width: 12%;
+}
+.title-startDate {
+  width: 16%;
+}
+.title-endDate {
+  width: 12%;
+}
+.title-teamName {
+  width: 8%;
+}
+.booking-list-util-div{
+    display:flex;
+    align-items: center;
+    font-size:1vw;
+}
+.booking-filter{
+    margin-left: 3%;
+}
+.booking-request-btn{
+    margin-left: auto;
+}
+.lol{
+    color:rgb(19, 129, 253);
+    color:rgb(21, 250, 0);
+    color:rgb(0, 0, 0);
+}

@@ -1,0 +1,128 @@
+.booking-form-main-div {
+  background-color: white;
+  padding: 1vw;
+  position:relative;
+}
+.booking-form-title {
+  font-size: 1vw;
+  text-align: center;
+  padding:1vw;
+}
+.booking-form-title h1 {
+  padding: 0;
+  margin: 0;
+}
+.booking-form-details-div {
+  padding: 1vw;
+  display: grid;
+  font-size: 1vw;
+}
+.booking-form-details {
+  display: flex;
+  padding: 1vw;
+  justify-content: center;
+}
+.booking-form-details input {
+  font-size: 1.2vw;
+  font-weight: bold;
+  padding: 0.5vw;
+  border:none;
+  outline:none;
+  text-align: center;
+  border-bottom: .2vw solid black;
+  background-color: transparent;
+}
+.left {
+  width: 30%;
+  display: grid;
+  place-items: center;
+}
+
+.middle {
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  place-items: center;
+}
+.right{
+    width: 30%;
+    display: grid;
+    place-items: center;
+}
+.booking-form-spoc-div {
+  display: grid;
+  place-items: center;
+}
+.booking-form-spoc {
+  padding: 0.5vw;
+  margin: 0.5vw;
+  width: 50%;
+  display: flex;
+  flex-flow: wrap;
+  gap: 0.5%;
+  height: 10vw;
+  overflow: auto;
+  border-radius: 0.5vw;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.booking-form-autocomplete-div {
+  position: absolute;
+  background-color: whitesmoke;
+  font-size: 1vw;
+  width: 15vw;
+  height: 10vw;
+  z-index: 10;
+  left: 100%;
+  top: 0;
+  border-radius: 0.5vw;
+  overflow: auto;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.booking-form-autocomplete-div-item {
+  padding: 0.5vw;
+  border-bottom: 0.1vw solid rgb(168, 162, 162);
+  text-align: center;
+  font-size: 1vw;
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+.booking-form-autocomplete-div-item:hover {
+  background-color: rgb(168, 162, 162);
+}
+.booking-form-btn {
+  border: none;
+  outline: none;
+  font-size: 1vw;
+  padding: 0.5vw;
+  margin: 0.5vw;
+  width: 11vw;
+  height: 3vw;
+  border-radius: 0.5vw;
+  color: whitesmoke;
+  background-color: rgb(87, 139, 87);
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 0.2vw;
+}
+.booking-form-btn:active {
+  background-color: rgb(54, 139, 54);
+}
+#autocomplete {
+  border: none;
+  outline: none;
+  font-size: 1.2vw;
+  padding: 0.5vw;
+  margin: 0.5vw;
+  width: 30vw;
+  text-align: center;
+  border-bottom: 0.1vw solid black;
+  font-weight:700;
+}
+.booking-form-bottom{
+    display:grid;
+    place-items: center;
+    margin:1vw;
+    font-size: 1vw;
+}

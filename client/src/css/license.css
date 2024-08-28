@@ -1,0 +1,128 @@
+.license-data-holder-div {
+  border-radius: .5vw;
+  margin: 1%;
+  padding:.3vw;
+  display: flex;
+  place-items: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  background-color: white;
+  transition: 0.1s linear;
+  height: 3vw;
+  justify-content: space-between;
+}
+.license-data-priority {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  padding: 3%;
+  border-radius: 100%;
+}
+.license-data-date {
+  position: absolute;
+  bottom: -5%;
+  left: 0%;
+  font-size: .7vw;
+  color: rgb(95, 91, 91);
+  font-weight: bold;
+  width: 15vw;
+}
+.license-data-div {
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  place-items: center;
+  gap: 50%;
+  height:100%;
+}
+.license-data-holder-div:hover {
+  background-color: rgb(214, 207, 207);
+}
+.license-data-name-div {
+  height:100%;
+  width: 8%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1vw;
+}
+.license-data-details-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: .8vw;
+}
+.license-data-details-div h3{
+  padding:0;
+  margin:0;
+}
+.license-data-pod{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width:10%;
+  font-weight: bold;
+  font-size: 1vw;
+  color:rgb(77, 72, 72);
+}
+
+.license-more-btn {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  height: 2vw;
+  width: 2vw;
+  font-size: 1vw;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.license-more-btn:active {
+  background-color: rgb(214, 207, 207);
+}
+.license-more-option-div {
+  padding: 5px;
+  margin: 5px;
+  position: absolute;
+  top: 0;
+  right: 100%;
+  display: grid;
+  border-radius:10px;
+  background-color: rgb(80, 77, 77);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  gap:5px;
+}
+.view {
+  border-radius: 5vw;
+  padding: 1vw;
+  width: 5vw;
+  font-size: .8vw;
+  font-weight: bold;
+  letter-spacing: .1vw;
+}
+.license-option-btn {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  color: whitesmoke;
+  font-size: 1vw;
+  padding: 5px;
+  transition: 0.3s ease;
+  border-radius: 5px;
+}
+.license-option-btn:hover {
+  background-color: rgb(59, 57, 57);
+}
+.license-option-btn:active {
+  background-color: rgb(34, 32, 32);
+}

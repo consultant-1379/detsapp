@@ -1,0 +1,52 @@
+.booking-data-main-div{
+    padding:.5vw;
+    border-radius: .2vw;
+    background-color: whitesmoke;
+    font-size: 1vw;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.booking-data-main-div h3{
+    padding:0;
+    margin:0;
+}
+.booking-btn{
+    height:1.8vw;
+    width:1.8vw;
+}
+.details{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+}
+.cloudName{
+    width:15%;
+    position:relative;
+}
+.booking-status{
+    position:absolute;
+    padding:.3vw;
+    border-radius: 100%;
+    top:0;
+    left:0;
+}
+.status{
+    width:5%;
+}
+.spoc{
+    width:25%;
+}
+.env{
+    width:15%;
+}
+.prepDate{
+    width: 15%;
+}
+.startDate{
+    width: 15%;
+}
+.endDate{
+    width:15%;
+}

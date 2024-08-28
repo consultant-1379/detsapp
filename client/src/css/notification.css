@@ -1,0 +1,59 @@
+.noti-main-div {
+  cursor: pointer;
+  width: 100%;
+  transition: 0.3s ease;
+  border-bottom: .1vw solid rgb(187, 180, 180);
+  position: relative;
+  z-index: 10;
+}
+.noti-type{
+  position:absolute;
+  top:0;
+  left:0;
+  padding:.2vw;
+  font-size:.7vw;
+  font-weight: bold;
+  color:rgb(145, 140, 140);
+
+}
+.noti-main-div:hover {
+  background-color: rgb(211, 205, 205);
+}
+.noti-main-desc {
+  padding: .3vw;
+  display: flex;
+  gap: 5%;
+  align-items: center;
+  font-size: 1vw;
+}
+.noti-main-exp {
+  position: absolute;
+  z-index: 5;
+  bottom: 10px;
+  right: 10px;
+  font-size:1vw;
+  color: rgb(143, 136, 136);
+}
+.noti-main-delete-btn {
+  position: absolute;
+  z-index: 5;
+  top: 10%;
+  right: 4%;
+  height: 1vw;
+  width: 1vw;
+  color: rgb(110, 104, 104);
+  border: none;
+  outline: none;
+  background-color: whitesmoke;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.noti-main-delete-btn:active {
+  box-shadow: none;
+  background-color: rgb(219, 215, 215);
+}

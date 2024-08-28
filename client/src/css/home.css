@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Roboto&display=swap");
+*::-webkit-scrollbar-track {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background-color: transparent;
+  border-radius: 1vw;
+}
+*::-webkit-scrollbar {
+  width: 0.3vw;
+  background-color: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #080808;
+  border-radius: 1vw;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: whitesmoke;
+  font-family: "Nunito", sans-serif;
+}
+.home-license-title {
+  display: flex;
+  padding: 0.5vw;
+  margin: 0.5vw;
+  justify-content: space-between;
+  align-items: center;
+}
+.home-license-title-holder {
+  padding: 1vw;
+  margin: 1vw;
+  border-radius: 0.5vw;
+  width: 100%;
+  display: flex;
+  gap: 5vw;
+}
+.home-license-sort-holder {
+  border: 1px solid black;
+  width: 100%;
+  display: flex;
+}
+.home-license-sort-div {
+  font-size: 1vw;
+  display: flex;
+  gap: 2vw;
+  align-items: center;
+  justify-content: center;
+}
+.home-license-create-btn {
+  padding: 0.6vw;
+  margin: 0.6vw;
+  border-radius: 0.5vw;
+  background-color: rgb(80, 77, 77);
+  color: rgb(19, 231, 19);
+  cursor: pointer;
+  outline: none;
+  border: none;
+  width: 10vw;
+  font-size: 0.8vw;
+  font-weight: bolder;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.home-license-create-btn:active {
+  background-color: rgb(48, 46, 46);
+}
+.title-time {
+  font-size: 1vw;
+  margin-left: 15vw;
+}
+.title-pod {
+  font-size: 1vw;
+  margin-right: 5vw;
+}
+.home {
+  background-color: transparent;
+  box-shadow: none;
+}
+.home:hover {
+  background-color: transparent;
+}

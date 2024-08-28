@@ -1,0 +1,178 @@
+.nav-main-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 4vw;
+  background-color: rgb(59, 58, 58);
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  position: sticky;
+}
+.nav-logo-div {
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  place-items: center;
+  padding: 0 10px 0 10px;
+}
+.nav-logo-div img {
+  height: 50%;
+  width: 100%;
+}
+.nav-option-div {
+  height: 100%;
+  display: flex;
+  place-items: center;
+  gap: 1vw;
+}
+.nav-option {
+  display: flex;
+  place-items: center;
+  padding: 0 2vw 0 2vw;
+  text-decoration: none;
+  color: white;
+  height: 40%;
+  width: 100%;
+  font-size: 1vw;
+  border-radius: .7vw;
+  transition: 0.15s linear;
+}
+.nav-option:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.nav-util-div {
+  height: 100%;
+  width: 20%;
+  margin-left:15vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:1vw;
+}
+.nav-option-searchbar {
+  border: none;
+  outline: none;
+  padding: .5vw;
+  background-color: transparent;
+  border-bottom: 1px solid rgb(36, 35, 35);
+  text-align: center;
+  color: whitesmoke;
+  font-size: 1vw;
+  background-color:rgb(44, 43, 43); ;
+}
+.nav-option-searchbar::-webkit-search-cancel-button {
+  display: none;
+}
+
+.nav-logout-div {
+  display: flex;
+  gap: 1vw;
+  place-items: center;
+  margin-right: .2vw;
+}
+.nav-logout-form {
+  display: flex;
+  place-items: center;
+}
+.nav-logout-btn {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: whitesmoke;
+  border-radius: 2vw;
+  font-weight: bold;
+  font-size: 1vw;
+  transition: 0.2s linear;
+  margin-left: auto;
+  padding:.5vw;
+}
+.nav-logout-btn:hover {
+  background-color: whitesmoke;
+  color: rgb(59, 58, 58);
+}
+.nav-logout-btn:active {
+  transition: none;
+  background-color: rgb(224, 219, 219);
+  color: rgb(59, 58, 58);
+}
+.nav-notification-list-div {
+  position: absolute;
+  background-color: white;
+  width: 18vw;
+  height: 23vw;
+  border-radius: .5vw .5vw 0 0;
+  right: -100%;
+  top: 110%;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.nav-notification-list-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 15%;
+  font-size: 1vw;
+  border-bottom: 1px solid rgb(190, 186, 186);
+  justify-content: space-evenly;
+}
+.nav-notification-clear-btn {
+  border: none;
+  outline: none;
+  background-color: rgb(221, 209, 209);
+  color: black;
+  padding: .5vw;
+  border-radius: .6vw;
+  width: 30%;
+  font-size: 1vw;
+  cursor: pointer;
+  font-weight: bolder;
+}
+.nav-notification-clear-btn:active {
+  font-size: 0.99vw;
+}
+.nav-notification-list-scrollable {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 85%;
+  overflow-y: auto;
+}
+.nav-notification-list-scrollable::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.11);
+  border-radius: 100px;
+}
+.nav-notification-list-scrollable::-webkit-scrollbar {
+  width: .2vw;
+  background-color: whitesmoke;
+}
+
+.nav-notification-list-scrollable::-webkit-scrollbar-thumb {
+  background-color: #080808;
+  border-radius: 100px;
+}
+.noti-btn {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  height: 2.5vw;
+  width: 2.5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  background-color: transparent;
+  color: white;
+  transition: 0.2s linear;
+}
+  
+.noti-btn:hover {
+  background-color: rgb(44, 43, 43);
+}
+.noti-btn:active {
+  background-color: black;
+}
